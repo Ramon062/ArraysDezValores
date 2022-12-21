@@ -1,0 +1,183 @@
+import java.util.Scanner;
+
+public class CalculadoraCompleta {
+
+public static void main(String[] args) {
+		
+		
+		Scanner ler = new Scanner (System.in);
+		
+		BancoDeDadosCalculadora operador1 = new BancoDeDadosCalculadora();
+		
+	//	 soma, subtração, divisão, multiplicação, resto, raiz quadrada, potência, seno, cosseno, tangente.
+		
+		
+		
+		double num1 = 0;
+		double  num2 = 0;
+		double opcao ;
+		
+		double operador = 0;
+		double soma;
+		double subtracao;
+		double multiplicacao;
+		double divisao;
+		double resto;
+	
+		double operador3 = 0;
+		double potencia = 0;
+		double seno;
+		
+		
+		
+		System.out.println("- - - - CALCULADORA - - - -");
+		System.out.println();
+		
+		System.out.println("DIGITE O PRIMEIRO NUMERO:  ");
+		num1 = ler.nextDouble();
+		operador1.setNum1(num1);
+		
+		System.out.println("NUMERO DIGITADO: " + operador1.getNum1());
+		System.out.println("\n");
+		
+		
+		
+		
+		
+		
+		System.out.println("INFORME O OPERADOR DESEJADO:  ");
+		System.out.println("1 - ADICAO ( + )");
+		System.out.println("2 - SUBTRACAO ( - )");
+		System.out.println("3 - MULTIPLICACAO ( * )");
+		System.out.println("4 - DIVISAO ( / )");
+		System.out.println("5 - POTENCIA (¹²³)");
+		System.out.println("6 - RAIZ QUADRADA ( v-- )");
+		System.out.println("7 - SENO ( sin )");
+		System.out.println("8 - COSSENO ( cos )");
+		System.out.println("9 - TANGENTE ( tan )");
+		System.out.println("10 - RESTO ( res )");
+		
+		
+		opcao = ler.nextDouble();
+
+
+		
+		
+		if (opcao == 6) {  
+			
+			 operador = BancoDeDadosCalculadora.raizQ(num1);
+			 
+			 operador = (double) (Math.sqrt(num1));
+			 
+			
+			 
+			System.out.printf("\nO Resultado da Raiz Quadrada: %f\n", operador);  
+		
+			  
+		} 
+		
+		
+		 if (opcao == 7) {  
+			 seno = BancoDeDadosCalculadora.seno(num1, num2);
+			 
+			  seno = (double) (Math.sin(num1 ));
+			 
+			
+			System.out.printf("\nO resultado do seno e: %f\n", seno);
+			opcao = ler.nextDouble();
+			  
+		} 
+		 if (opcao == 8) {  
+			
+			 
+			  operador3 = (double) (Math.cos(num1 ));
+			 
+			
+			System.out.printf("\nO resultado do cosseno e: %f\n", operador3);
+			System.out.println("");
+			opcao = ler.nextDouble();
+			  
+		} 
+		
+		 if (opcao == 9) {  
+			 operador3 = BancoDeDadosCalculadora.tangente(num1, num2);
+			 
+			  operador3 = (double) (Math.tan(num1 ));
+			 
+			
+			System.out.printf("\nO resultado do tangente e: %f\n ", operador3);   
+			opcao = ler.nextDouble();
+			 
+		} 
+		
+		
+		else {
+			
+		
+		
+			
+		System.out.println("DIGITE O SEGUNDO NUMERO:  ");
+		num2 = ler.nextDouble();
+		operador1.setNum2(num2);
+		
+		System.out.println("NUMERO DIGITADO:\n " + operador1.getNum2());
+		System.out.println("\n");
+		}
+		
+		
+		if ( opcao == 1 ) {
+			soma = BancoDeDadosCalculadora.soma(num1, num2);
+			soma = (double) (num1 + num2);
+            System.out.printf("\nO resultado da soma e: %f\n", soma);  
+              
+        }  
+        else if (opcao == 2) { 
+        	subtracao = BancoDeDadosCalculadora.subtracao(num1, num2);
+        	
+        	subtracao = (double) (num1 - num2 );
+        
+			System.out.printf("\nO resultado da subtracao e: %f\n", subtracao);  
+			  
+		}  
+		else if (opcao == 3) {
+			multiplicacao = BancoDeDadosCalculadora.multiplicacao(num1, num2); 
+			
+			multiplicacao = (double) (num1 * num2);
+			
+			System.out.printf("\nO resultado da multiplicacao e: %f\n", multiplicacao);    
+			  
+		}  
+		else if (opcao == 4) {  
+			 divisao = BancoDeDadosCalculadora.divisao(num1 ,  num2);
+			 
+			
+			 divisao = (double) (num1 / num2);
+			 
+			 
+			System.out.printf("\nO resultado da divisao e: %f\n", divisao);  
+			
+			  
+		}  
+	
+	
+		else if (opcao == 5) {  
+			 potencia = BancoDeDadosCalculadora.potencia(num1, num2);
+			 
+			  potencia = (int) (Math.pow(num1, num2 ));
+			 
+			
+			System.out.printf("\nO resultado da potencia e: %f\n", potencia);   
+			  
+		} 
+		else if (opcao == 10) {  
+			 resto = BancoDeDadosCalculadora.resto(num1, num2);
+			 
+			  resto = (double) (num1 % num2 );
+			 
+			
+			System.out.printf("\nO resultado do resto e: %.2f\n", resto);   
+			  
+		} 
+}
+}
+		
