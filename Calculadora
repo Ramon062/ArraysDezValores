@@ -1,0 +1,212 @@
+
+public class BancoDeDadosCalculadora {
+
+	//chamando partes das variaveis da "ENTRADA" ATV4 (FANZENDO UMA CALCULADORA)
+	
+public double num1 = 0;
+
+public double num2 = 0;
+public double operador;
+public double resultado;
+public double soma;
+public double subtracao;
+public double divisao;
+public double multiplicacao;
+public double raizQ;
+public double resto; 
+public double operador3;
+public double potencia;
+public double seno;
+public double cosseno;
+public double tangente;
+
+
+
+
+public double getSoma() {
+	return soma;
+}
+
+public void setSoma(double soma) {
+	this.soma = soma;
+}
+
+public double getSubtracao() {
+	return subtracao;
+}
+
+public void setSubtracao(double subtracao) {
+	this.subtracao = subtracao;
+}
+
+public double getDivisao() {
+	return divisao;
+}
+
+public void setDivisao(double divisao) {
+	this.divisao = divisao;
+}
+
+public double getMultiplicacao() {
+	return multiplicacao;
+}
+
+public void setMultiplicacao(double multiplicacao) {
+	this.multiplicacao = multiplicacao;
+}
+
+public double getNum1() {
+	return num1;
+}
+
+public void setNum1(double num1) {
+	this.num1 = num1;
+}
+
+public double getNum2() {
+	return num2;
+}
+
+public void setNum2(double num2) {
+	this.num2 = num2;
+}
+
+public double getOperador() {
+	return operador;
+}
+
+public void setOperador(double operador) {
+	this.operador = operador;
+}
+
+public double getResultado() {
+	return resultado;
+}
+
+public void setResultado(double resultado) {
+	this.resultado = resultado;
+}
+
+
+
+public double getRaizQ() {
+	return raizQ;
+}
+
+public void setRaizQ(double raizQ) {
+	this.raizQ = raizQ;
+}
+
+public double getResto() {
+	return resto;
+}
+
+public void setResto(double resto) {
+	this.resto = resto;
+}
+
+
+public double getOperador3() {
+	return operador3;
+}
+
+
+
+public double getPotencia() {
+	return potencia;
+}
+
+public void setPotencia(double potencia) {
+	this.potencia = potencia;
+}
+
+public double getSeno() {
+	return seno;
+}
+
+public void setSeno(double seno) {
+	this.seno = seno;
+}
+
+public double getCosseno() {
+	return cosseno;
+}
+
+public void setCosseno(double cosseno) {
+	this.cosseno = cosseno;
+}
+
+public double getTangente() {
+	return tangente;
+}
+
+public void setTangente(double tangente) {
+	this.tangente = tangente;
+}
+
+public void setOperador3(double operador3) {
+	this.operador3 = operador3;
+}
+
+public static int soma(double num12, double num22) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public static int subtracao(double num12, double num22) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public static int multiplicacao(double num12, double num22) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public static int divisao(double num12, double num22) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public static int raizQ(double num12) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public static int resto(double num12, double num22) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public static int potencia(double num12, double num22) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public static int seno(double num12, double num22) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public static int cosseno(double num12, double num22) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public static int tangente(double num12, double num22) {
+	// TODO Stub de método gerado automaticamente
+	return 0;
+}
+
+public void setOpcao() {
+	// TODO Stub de método gerado automaticamente
+	
+}
+
+public void getOpcao(double opcao) {
+	// TODO Stub de método gerado automaticamente
+	
+}
+
+
+}
