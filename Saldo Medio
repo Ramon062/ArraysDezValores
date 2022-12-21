@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class saldoMedio {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner (System.in);
+		
+		
+		
+
+		double media=0;
+	    double credito=0;
+	   
+	    
+	    
+	      System.out.println("Informe seu saldo:");
+	      media = ler.nextDouble();
+	      
+	      
+	      if ((media >= 0) && (media <= 500.0)) {
+	    
+	    	  credito = 0.0;
+	    	 
+	      System.out.println("Nao teve credito concedito. Infelizmente sua renda nao e compativel." );
+	      }
+	      
+	      if ((media > 500.0 ) && (media <= 1000.0)) {
+	    	 
+	    	  credito = media * 0.3;
+	    	  
+	    	  System.out.println("Foi concedido um credito de " + credito +". Sua renda e Consideravel MEDIA. Parabens ... " );
+	      }
+	     if ((media > 1000.0) && (media <= 3000.0)) {
+	    	
+	    	 credito = media * 0.4;
+	    	 
+	    	  System.out.println("Foi concedido um credito de " + credito + ". Sua renda e Consideravel ALTA. Parabens ..." );
+	      }
+	      if (media > 3000.0) {
+	    	  credito = media * 0.5;
+	    	  
+	    	  System.out.println("Foi concedido um credito de " + credito + ". Sua renda e Consideravel MUITO ALTA. Parabens ... " );
+	      }
+	      
+	    	  
+	      
+	     
+		
+	}
+
+
+}
+
+//RAMON FERNANDES DA SILVA --- OK
