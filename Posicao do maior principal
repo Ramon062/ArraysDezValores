@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class PosicaoDoMaior {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		Scanner ler = new Scanner(System.in);
+		
+		
+		int maior = 0;
+		int posicao = 0;
+		int num1;
+		
+		System.out.println("\n EXERCICIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO - 3\n");
+		
+		
+		
+		
+		for (int i = 1; i <= 10; i++) {
+			
+			System.out.println("INFORME UM NUMERO:  ");
+			num1 = ler.nextInt();
+			
+			if (num1 > maior) {
+				
+				maior = num1;			
+				
+			} 
+			
+			 if ( maior == num1) 
+			{
+			
+				posicao = i;
+					
+			}
+		}
+		
+		System.out.println(maior + " E o numero maior ");
+		System.out.println(posicao + " Essa e a posicao do numero maior ");
+	}
+}
+	
+	
+	
+
+
