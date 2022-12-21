@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class imc {
+
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner ler = new Scanner (System.in);
+		
+		double peso=0;
+	    double altura=1;
+	    double imc=0;  //IMC: INDICE DE MASSA CORPOREA
+	    
+	    
+	      System.out.println("Informe seu PESO (Kg, INTEIRO):");
+	      peso = ler.nextDouble();
+	      
+	      System.out.println("Informe sua ALTURA (MTRS, REAL):");
+	      altura = ler.nextDouble();
+	      
+	     imc = peso / (altura * altura); 
+	     System.out.println(imc);
+	     
+	      if (imc < 20) {
+	    	  System.out.println("Abaixo do peso" );
+	      }
+	      
+	      if ((imc >= 20) && (imc < 25)) {
+	    	  System.out.println("Peso normal" );
+	      }
+	     if ((imc >= 25) && (imc < 30)) {
+	    	  System.out.println("Sobre o peso" );
+	      }
+	      if ((imc > 30) && (imc <= 40)) {
+	    	  System.out.println("Obeso"  );
+	      }
+	      if (imc > 40) {
+	    	  System.out.println("Obeso Morbido" );
+	      }
+	     
+	    
+	      
+	 
+	      
+}
+}
+	
+//RAMON FERNANDES DA SILVA --- OK
