@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class ValoresParImpar {
+
+
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+        Scanner ler = new Scanner(System.in);
+        
+        GuardarDadosValores CALCULADORA1 = new GuardarDadosValores();
+        
+        int Par = 0;
+        
+        int Impar = 0;
+        
+        int Positivos = 0;
+        
+        int Negativos = 0;
+        	    
+        int num1;
+        
+        //FOR condicão para determinar a quantidade de vezes que ira repetir a condicao...
+       for (int i = 0; i < 5; i++) {
+        	
+        	System.out.println("INFORME UM NUMERO: ");
+        	num1 = ler.nextInt();
+        	CALCULADORA1.setNum1(num1);
+        	
+        	//condicao para mostrar se é impar ou par...
+        	
+        	if (num1 % 2 == 0) Par++;
+        	
+        	else Impar++; 
+        	
+        	//condicao para mostrar se é positivo ou negativo...
+        	
+        	if (num1 > 0) Positivos++;
+        	
+        	else if(num1 < 0) Negativos++;
+        }
+        System.out.println("- TOTAL DE " +Par + " NUMEROS PARES.");	
+        
+        System.out.println("- TOTAL DE " +Impar + "  NUMEROS IMPARES.");
+        
+        System.out.println("- TOTAL DE " +Positivos + "  NUMEROS POSITIVOS.");
+        
+        System.out.println("- TOTAL DE " +Negativos + " NUMEROS NEGATIVOS.");
+        
+        System.out.println("");
+        System.out.println("UAU, QUI DIMAISSSSS");
+}
+
+}
