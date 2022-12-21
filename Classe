@@ -1,0 +1,52 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ArraysDezValores {
+
+	//PROGRAMA 02
+	public static void main(String[] args) {
+		
+		
+		Scanner ler = new Scanner (System.in);
+		
+		System.out.println("ºººººººº PROGRAMAAAAAAAAAAAAAAAAAA 2 ººººººººº");
+		int soma = 0;
+    //Cria uma variavel do tipo inteira chamado "soma".
+		
+		 var nomeLista = new ArrayList<String>();
+		 // Cria uma Array chamada "nomeLista".
+
+		 int[] valorLista = new int [10];
+		// dentro da [] determina a quantidade de valor que o usuario deseja.
+
+        for (int i = 1; i < 3; i++) {
+            
+        	
+        	
+            System.out.println("Digite " + i + " valor:");
+             valorLista[i] = ler.nextInt();
+          
+
+        }
+
+
+        System.out.println("VALORES INSERIDOS:");    
+      //  System.out.println("Valor: " + valorLista);
+        
+        for (int i = 0; i < valorLista.length; i++) {
+        	
+        	soma = soma + valorLista[i];
+			
+		}
+
+        System.out.println("O valor da soma e: | " + soma);
+        }
+
+	
+	 
+    }
+			
+		
+	
+
+
