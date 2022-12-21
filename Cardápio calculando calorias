@@ -1,0 +1,119 @@
+import java.util.Scanner;
+
+public class portugol {
+
+	 public static void main(String[] args) {
+	      
+		 Scanner  ler = new Scanner(System.in);
+
+	      
+	      int prato=0;
+	      int sobremesa=0;
+	      int bebida=0;
+	      
+	      int calorias=0;
+	      int soma=0;
+	      //System.out.println("  \n - Frango: 250 cal \n - Carne: 350 cal\n");
+	      System.out.println("--------CARDAPIO--------");
+	      System.out.println("* * *PRATOS PRINCIPAIS* * *");
+	      System.out.println("1- Vegetariano: 180 cal");
+	      System.out.println("2- Peixe: 230 cal");
+	      System.out.println("3- Frango: 250 cal");
+	      System.out.println("4- Carne: 350 cal");
+	    System.out.println("Informe o prato:");
+	      
+	      prato = ler.nextInt();
+	      
+	      if(prato == 1) {
+	    	  calorias=180;
+	    	  soma= soma+calorias;
+	      }
+	      
+	      if(prato == 2) {
+	    	  calorias=230;
+	    	  soma= soma+calorias;
+	      
+	      }
+	      
+	      if(prato == 3) {
+	    	  calorias=250;
+	    	  soma= soma+calorias;
+	      }
+	      if(prato == 4) {
+	    	  calorias=350;
+	    	  soma= soma+calorias;
+	      }
+	      System.out.println("--------CARDAPIO--------");
+	      System.out.println("* * * *SOBREMESAS* * * * *");
+	      System.out.println("1- ABACAXI: 75 cal");
+	      System.out.println("2- SORVETE DIET: 110 cal");
+	      System.out.println("3- MOUSE DIET: 170 cal");
+	      System.out.println("4- MOUSE DE CHOCOLATE : 200 cal");
+	    System.out.println("Informe a sobremesa:");
+	 
+	 
+	    sobremesa = ler.nextInt();
+	      
+	      if(sobremesa == 1) {
+	    	  calorias=75;
+	    	  soma= soma+calorias;
+	      }
+	      
+	      if(sobremesa == 2) {
+	    	  calorias=110;
+	    	  soma= soma+calorias;
+	      
+	      }
+	      
+	      if(sobremesa == 3) {
+	    	  calorias=170;
+	    	  soma= soma+calorias;
+	      }
+	      if(sobremesa == 4) {
+	    	  calorias=200;
+	    	  soma= soma+calorias;
+	      }
+	 
+	 
+	      System.out.println("--------CARDAPIO--------");
+	      System.out.println("* * * *BEBIDAS* * * * *");
+	      System.out.println("1- DRINK VODKA: 231 cal");
+	      System.out.println("2- DRINK COM FRUTAS CITRICAS 142 cal");
+	      System.out.println("3- REFRIGERANTE DIET: 65 cal");
+	      System.out.println("4- SUCO DE CUPUACU : 177 cal");
+	    System.out.println("Informe a BEBIDA:");
+	 
+	 
+	    bebida = ler.nextInt();
+	      
+	      if(bebida == 1) {
+	    	  calorias=231;
+	    	  soma= soma+calorias;
+	      }
+	      
+	      if(bebida == 2) {
+	    	  calorias=142;
+	    	  soma= soma+calorias;
+	      
+	      }
+	      
+	      if(bebida == 3) {
+	    	  calorias=65;
+	    	  soma= soma+calorias;
+	      }
+	      if(bebida == 4) {
+	    	  calorias=177;
+	    	  soma= soma+calorias;
+	      }
+	 
+	 System.out.println("Total de calorias no cardapio total e: "+ soma);
+	 
+	 
+	 }
+
+
+}
+
+
+//RAMON FERNANDES DA SILVA --- OK
+
