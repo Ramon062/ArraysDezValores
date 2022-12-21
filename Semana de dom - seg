@@ -1,0 +1,59 @@
+import java.util.Scanner;
+
+public class semana {
+
+	
+	 public static void main(String[] args) {
+		
+		 
+		 Scanner ler = new Scanner (System.in);
+		 
+		 
+		 int numero=0;
+		 int semana=0;
+		 System.out.println("Digite um numero da semana de 1 a 7:");
+		
+		 numero = ler.nextInt();
+		 
+		 if (numero == 1) {
+			 //semana= Doming;
+			 System.out.println("Domingo, e o primeiro dia da semana." + semana);
+		 }
+		 
+		 if (numero == 2) {
+			 //semana= numero;
+			 System.out.println("Segunda - Feira, e o segundo dia da semana." + semana);
+		 }
+		 
+		 
+		 if (numero == 3) {
+			 //semana= numero;
+			 System.out.println("Terca - Feira, e o terceiro  dia da semana." + semana);
+		 }
+		 
+		 if (numero == 4) {
+			 //semana= numero;
+			 System.out.println("Quarta - Feira, e o quarto dia da semana." + semana);
+		 }
+		 if (numero == 5) {
+			 //semana= numero;
+			 System.out.println("Quinta - Feira, e o quinto dia da semana." + semana);
+		 }
+		 if (numero == 6) {
+			 //semana= numero;
+			 System.out.println("Sexta - Feira, e o sexto dia da semana." + semana);
+		 }
+		 if (numero == 7) {
+			 //semana= numero;
+			 System.out.println("Sabado, e o setimo dia da semana." +  semana);
+		 }
+		 
+		 else  {
+			 
+			 System.out.println("numero invalido. Tente novamente...");
+		 }
+	 }		 
+}
+
+
+//RAMON FERNANDES DA SILVA --- OK
