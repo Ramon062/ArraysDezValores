@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class SenhaInvalida {
+
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner (System.in);
+		
+		
+		int senha = 0;
+		String login;
+		
+		
+		
+		
+		System.out.println("LOGIN: ");
+	    login = ler.next();
+	  
+			        	        
+		         
+	  
+		while (senha != 2002) {
+			System.out.println("DIGITE A SENHA: ");
+		        senha = ler.nextInt();
+			
+			if (senha == 2002) {
+				
+				System.out.println("\nACESSO PERMITIDO. ");
+				System.out.println("\nAcesso Permitido - SEJA BEM VINDO... Sr." + login);
+					    
+			}
+			else {
+				
+				System.out.println("Senha incorreta, digite novamente. \n");
+				System.out.println("DICA: 7070, SE NUM DER 70 ");
+				System.out.println("");
+			}
+	    	
+		}
+
+
+
+		}
+	
+
+	
+}
