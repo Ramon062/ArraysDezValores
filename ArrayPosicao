@@ -1,0 +1,59 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ArrayPosicao {
+
+	public static void main(String[] args) {
+		
+		//PROGRAMAAAAAAAAAAAAAAAAAAA O1
+		
+	System.out.println("§§§§ PROGRAMAAAAAAA 01 §§§§");
+		
+		int[] nums = {22,34, 55, 99,130};
+
+	
+		
+		//Scanner ler = new Scanner (System.in);
+		
+		 
+		
+		
+
+       for (int i = 1; i < nums.length; i++) {
+           
+       	
+       	
+           System.out.println("Valores do " + i + " Array e: \n" + nums[i]);
+            
+         
+
+       }
+
+		
+		
+		
+		
+	/*	for(int pos = 0; pos < 5; pos++){
+
+			
+		    nums[pos] = ler.nextInt();
+
+		    
+		    msm += ("Posição do vetor: [" +  pos + "] | Valor armazenado: " + nums[pos] + "%f \n");
+		   
+		}
+
+		System.out.println(msm);
+		
+		
+		*/
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+}
